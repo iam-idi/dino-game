@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    </link>
+</head>
+
+<body>
+    <h1>Dino Game Unleashed</h1>
+    <button class="btnplay" onclick="playFunc()">PLAY</button>
+    <button class="btnpause" onclick="pauseFunc()">PAUSE</button>
+    <p class="playpause"></p>
+    <p class="gameover"></p>
+
+    <div class="space" onclick="jump()">
+        <div class="dino"></div>
+        <p class="score"></p>
+        <div class="attack cactus"></div>
+        <div class="bladebox attack">
+            <div class="blademount"></div>
+            <div class="blade"></div>
+        </div>
+        <div class="attack boulder"></div>
+        <div class="attack bird">
+            <div class="eye"></div>
+            <div class="wing wing1"></div>
+            <div class="wing wing2"></div>
+            <div class="wing wing3"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
